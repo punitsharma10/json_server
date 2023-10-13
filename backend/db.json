@@ -1,0 +1,151 @@
+{
+
+    "users": [
+   
+     {
+   
+      "id": 1,
+   
+      "fullName": "Anurag",
+   
+      "email": "test1@a.com",
+   
+      "password": "test"
+   
+     },
+   
+     {
+   
+      "id": 2,
+   
+      "fullName": "Punit",
+   
+      "email": "test2@a.com",
+   
+      "password": "test"
+   
+     },
+   
+     {
+   
+      "id": 3,
+   
+      "fullName": "Paras",
+   
+      "email": "test3@a.com",
+   
+      "password": "test"
+   
+     }
+   
+    ],
+   
+    "income": [
+   
+     {
+   
+      "userId": 1,
+   
+      "category": "Salary",
+   
+      "amount": 1000
+   
+     },
+   
+     {
+   
+      "userId": 1,
+   
+      "category": "Gifts",
+   
+      "amount": 2000
+   
+     },
+   
+     {
+   
+      "userId": 2,
+   
+      "category": "Refunds",
+   
+      "amount": 3000
+   
+     },
+   
+     {
+   
+      "userId": 1,
+   
+      "category": "Other",
+   
+      "amount": 4000
+   
+     }
+   
+    ],
+   
+    "expense": [
+   
+     {
+   
+      "userId": 1,
+   
+      "category": "Food & Drinks",
+   
+      "amount": 500
+   
+     },
+   
+     {
+   
+      "userId": 1,
+   
+      "category": "Shopping",
+   
+      "amount": 800
+   
+     },
+   
+     {
+   
+      "userId": 1,
+   
+      "category": "Housing",
+   
+      "amount": 1500
+   
+     },
+   
+     {
+   
+      "userId": 1,
+   
+      "category": "Bills",
+   
+      "amount": 700
+   
+     },
+   
+     {
+   
+      "userId": 1,
+   
+      "category": "Vehicle & Transport",
+   
+      "amount": 600
+   
+     },
+   
+     {
+   
+      "userId": 3,
+   
+      "category": "Lifestyle",
+   
+      "amount": 900
+   
+     }
+   
+    ]
+   
+   }
