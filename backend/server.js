@@ -1,19 +1,11 @@
 const jsonServer = require("json-server");
-
 const server = jsonServer.create();
-
 const router = jsonServer.router("db.json");
-
 const middlewares = jsonServer.defaults();
-
 const port = process.env.PORT || 3000;
-
 const db = router.db;
-
 server.use(middlewares);
-
 server.use(jsonServer.bodyParser);
-
 server.get("/transactions", (req, res) => {
   const userId = req.query.userId;
 
